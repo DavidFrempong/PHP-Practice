@@ -1,24 +1,26 @@
 <?php
 
-require ("classes/car.php");
-require ("classes/bmw.php");
-require ("classes/benz.php");
-require ("classes/inventory.php");
-
-$car1 = new Bmw ("i8", 4, "Blue", "50,000", new Inventory);
-// $car2 = new Benz ("S Class", 2, "Black", "70,000");
-
-// $car1->statement();
-$car1->price();
-// foreach(Car::$states as $state){
-//   echo "<h1>{$state}</h1>";
-// }
-
-$car1->states();
-
-// echo "<br>";
-
-// $car2->statement();
-// $car2->price();
-
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+        <a href="index.php">Home</a>
+            <a href="about.php">About</a>
+            <a href="projects.php">Projects</a>
+            <a href="contact.php">Contact</a>
+        </nav>
+    </header>
+    <section></section>
+</body>
+</html>
+
+<!-- Stopped at 2:50 -->
